@@ -11,7 +11,6 @@ This project leverages data from the Demographic and Health Surveys (DHS) Progra
 4. [Technologies Used](#technologies-used)
 5. [Installation and Setup](#installation-and-setup)
 6. [Usage](#usage)
-7. [License](#license)
 
 ---
 
@@ -66,5 +65,20 @@ The dataset, sourced from DHS, includes the following features:
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/violence-against-women-analysis.git
+   git clone https://github.com/pranav290804/Violence-Against-Women-Analysis
    cd violence-against-women-analysis
+
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+3. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook Notebook.ipynb
+
+---
+
+## Acknowledgments
+- **Data source:** https://www.kaggle.com/datasets/andrewmvd/violence-against-women-and-girls
+- **Inspired by efforts to end violence against women globally.**
+
