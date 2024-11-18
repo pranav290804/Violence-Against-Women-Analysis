@@ -1,78 +1,70 @@
-# Violence Against Women: Demographic Analysis and Insights
+# Analysis on Violence Against Women
 
-This repository contains an extensive analysis of survey data focusing on attitudes and justifications for violence against women across various demographic factors. Using data visualization, statistical insights, and geographic mappings, the project aims to identify key trends and provide actionable recommendations to reduce violence and promote gender equity.
+This project leverages data from the Demographic and Health Surveys (DHS) Program to analyze attitudes and perceived justifications for violence against women across African, Asian, and South American countries. The aim is to uncover patterns and key factors influencing these attitudes to support efforts to eliminate violence against women globally.
 
 ---
 
 ## Table of Contents
-1. [Introduction](#introduction)
+1. [Project Overview](#project-overview)
 2. [Dataset Description](#dataset-description)
-3. [Analysis Highlights](#analysis-highlights)
-4. [Visualizations](#visualizations)
-5. [Insights and Recommendations](#insights-and-recommendations)
-6. [How to Use](#how-to-use)
-7. [Prerequisites](#prerequisites)
-8. [Project Structure](#project-structure)
-9. [Acknowledgements](#acknowledgements)
+3. [Key Insights](#key-insights)
+4. [Technologies Used](#technologies-used)
+5. [Installation and Setup](#installation-and-setup)
+6. [Usage](#usage)
+7. [License](#license)
 
 ---
 
-## Introduction
-The project explores attitudes towards violence against women, segmented by factors such as:
-- Gender
-- Education level
-- Urban vs. rural residence
-- Marital status
-- Employment
+## Project Overview
 
-The findings aim to empower policymakers, NGOs, and researchers with actionable insights.
+### Purpose
+This analysis highlights how sociodemographic factors like education, employment, and marital status influence perceptions of violence against women. Insights gained aim to inform policies and awareness campaigns for reducing gender-based violence.
+
+### Objectives
+- Identify demographic factors that justify violence against women.
+- Emphasize the importance of education in shaping attitudes.
+- Create visualizations and summaries for global and regional insights.
 
 ---
 
 ## Dataset Description
-- **Source**: [Provide dataset source link here]
-- **Key Features**:
-  - Demographic factors: Gender, education level, country, residence.
-  - Agreement levels with statements justifying violence.
-  - Time-series trends and geographic distribution.
-- **Size**: [Include dataset size and number of rows/columns]
+
+The dataset, sourced from DHS, includes the following features:
+- **RecordID**: Unique identifier for each survey entry.
+- **Country**: Country where the survey was conducted.
+- **Gender**: Gender of the respondent (Male/Female).
+- **Demographics Question**: Type of demographic grouping (e.g., marital status, education).
+- **Demographics Response**: Respondent's demographic category.
+- **Question**: Survey question exploring attitudes toward violence.
+- **Survey Year**: Year of the survey.
+- **Value**: Percentage of respondents agreeing with the statement.
 
 ---
 
-## Analysis Highlights
-### Key Visualizations:
-- **Urban vs. Rural Agreement Levels**: Donut charts highlighting disparities.
-- **Trends Over Time by Gender**: Line graphs showing shifts in attitudes.
-- **Education and Agreement Levels**: Heatmaps and bar charts exploring correlations.
-- **Geographic Distributions**: Interactive maps displaying country-wise agreement levels.
-
-### Observations:
-1. **Higher education correlates with reduced justification for violence.**
-2. **Rural respondents show higher agreement levels than urban respondents.**
-3. **Women consistently display higher agreement levels for certain justifications, reflecting social conditioning.**
+## Key Insights
+- **Education**: Respondents with higher education levels are less likely to justify violence against women.
+- **Public Awareness**: Campaigns targeting awareness and education can significantly reduce harmful attitudes.
+- **Global Trends**: There are regional differences in attitudes, requiring localized interventions.
 
 ---
 
-## Visualizations
-Sample visualizations include:
-- **Donut Chart**: Urban vs. Rural Agreement Levels.
-- **Line Graph**: Gender-based agreement trends over time.
-- **Heatmaps**: Agreement levels segmented by education and demographics.
-- **Interactive Map**: Geographic distribution of attitudes.
+## Technologies Used
+- **Python Libraries**: 
+  - `pandas` and `numpy` for data manipulation.
+  - `matplotlib` and `seaborn` for visualization.
+  - `folium` and `geopandas` for geospatial analysis.
+- **Jupyter Notebook**: For interactive data exploration and analysis.
 
 ---
 
-## Insights and Recommendations
-1. **Promote Education**: Free education programs targeting underprivileged areas can reduce tolerance for violence.
-2. **Economic Empowerment**: Skill-based training and micro-loans for women enhance independence.
-3. **Strengthen Legal Frameworks**: Stricter penalties and fast-track courts can deter violence.
-4. **Leverage Technology**: Develop safety apps and implement surveillance in high-risk areas.
-5. **Cultural Change**: Engage community leaders to challenge patriarchal norms.
+## Installation and Setup
 
----
+### Prerequisites
+- Python 3.8 or later
+- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `folium`, `geopandas`
 
-## How to Use
+### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/repository-name.git
-   cd repository-name
+   git clone https://github.com/yourusername/violence-against-women-analysis.git
+   cd violence-against-women-analysis
