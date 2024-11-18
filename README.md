@@ -72,9 +72,24 @@ The dataset, sourced from DHS, includes the following features:
    ```bash
    pip install -r requirements.txt
 
-3. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook Notebook.ipynb
+3. Download the dataset:
+   - Locate the dataset file in the data folder of the repository (data/Violence Against Women and Girls.csv).
+   - Copy the file path of the dataset.
+
+4. Update the dataset file path in the notebook:
+   - Open the Jupyter Notebook:
+     ```bash
+     jupyter notebook Notebook.ipynb
+
+    - In the notebook, locate the line where the dataset is loaded:
+      ```bash
+      file_path = "C:/Users/prana/Downloads/Violence Against Women Girls Data.csv"
+
+    - Replace the file path with the path to the dataset in the repository, for example:  
+      ```bash
+      file_path = "./data/Violence Against Women Girls Data.csv"
+
+5. Run the notebook cells to execute the analysis.
 
 ---
 
